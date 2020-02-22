@@ -1,0 +1,20 @@
+
+
+.product-type-simple .ums {
+    display: none !important;
+}
+
+
+.product-type-grouped .ums {
+    display: none !important;
+}
+
+
+.product-type-external .ums {
+    display: none !important;
+}
+
+.product-type-variable .ums {
+    display: none !important;
+}
+

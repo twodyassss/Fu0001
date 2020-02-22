@@ -1,0 +1,101 @@
+﻿.card {
+    position: relative;
+}
+
+@media (min-width: 768px) {
+    .hentry.card .card-body {
+        padding: 1.5rem 2rem;
+    }
+    .wb-hide-mobile-sidebar .wp-bp-sidebar-width {
+        display: block;
+    }
+}
+
+.site-header.sticky-top {
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+.logged-in .site-content {
+    padding-top: 4.75rem;
+}
+
+.td-bp-full-page-header {
+    background-color: #2277cc;
+    color: #fff;
+    background-size: cover;
+    background-position: center;
+}
+
+.td-bp-full-page-header .page-header-overlay {
+    padding: 9rem 0 6rem;
+}
+
+.tag_list label {
+    padding: 0 1rem
+}
+
+#primary-menu-wrap ul>li {
+    text-align: center;
+}
+
+.footer-menu li {
+    display: inline-block;
+}
+
+.navbar-toggler.btn.login {
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    top: .725rem;
+    right: 5rem;
+}
+
+.navbar-toggler.btn.login img {
+    width: 2.5rem;
+}
+
+.fixed-sidebar {
+    -ms-flex-order: 0;
+    order: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+}
+
+@media (min-width: 768px) {
+    .fixed-sidebar {
+        background-color: #343a40;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 4.75rem;
+        z-index: 1000;
+        height: calc(100vh - 4.75rem);
+        border-right: 1px solid rgba(0, 0, 0, .1);
+    }
+    .site-footer.position-absolute {
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+    .site-main {
+        padding-bottom: 180px;
+    }
+    .card.card--hover:hover {
+        -webkit-transition: all .15s ease;
+        transition: all .15s ease;
+        -webkit-transform: translateY(-20px);
+        transform: translateY(-20px);
+    }
+}
+
+@media (min-width: 1200px) {
+    .fixed-sidebar {
+        -ms-flex: 0 1 20rem;
+        flex: 0 1 20rem;
+    }
+}
+
+#um_account_submit_logout.um-button {
+    display: none;
+}
